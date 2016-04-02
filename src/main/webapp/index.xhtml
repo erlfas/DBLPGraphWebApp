@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <h:head>
+        <title>Search for the neighborhood of a person</title>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.15.1/vis.min.js"></script>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.15.1/vis.min.css" rel="stylesheet" type="text/css" />
+        <h:outputScript library="scripts" name="graphscript.js" />
+        <h:outputStylesheet library="css" name="styles.css"/>
+        <script type="text/javascript">
+            function hei() {
+                alert("hei");
+            }
+        </script>
+    </h:head>
+    <h:body>
+        <input type="text" id="name" name="name" />
+        <button onclick="init()">Get coauthor graph</button>
+        <button onclick="hei()">Si hei</button>
+        <div id="visualization">
+            
+        </div>
+    </h:body>
+</html>
+

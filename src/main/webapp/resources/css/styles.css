@@ -1,0 +1,25 @@
+root { 
+    display: block;
+}
+
+.leftalign {
+    text-align: left;
+}
+
+.rightalign {
+    text-align: right;
+}
+
+.centered {
+    margin-left:auto;
+    margin-right:auto;
+}
+.centered-text {
+    text-align:center;
+}
+
+.rightalign-bold {
+    font-weight: bold;
+    text-align:right;
+}
+
